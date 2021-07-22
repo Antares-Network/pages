@@ -2,60 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Antares Network">
-    <meta property="og:description"
-        content="The Official Github Pages place to show off all of our projects and projects we are working on.">
-    <meta property="og:url" content="https://Antares-Network.playantares.com">
-    <meta property="og:image" content="https://Antares-Network.playantares.com/resources/icon.png">
-    <meta name="theme-color" content="#ff3505">
-    <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Antares Network</title>
+    <meta charset="utf-8">
+    <title>Antares Network Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="indexStyle.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+    </script>
 </head>
 
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="resources/icon.png" alt="Antares Network Logo">
-            <h2>Antares Network</h2>
-            <p>In a GitHub data center somewhere in the world</p>
-            <a href="https://github.com/Antares-Network"><i class="fab fa-github"></i></a>
-            <a href="https://dsc.gg/antaresnetwork"><i class="fab fa-discord"></i></a>
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Notice!</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="resources/icon.png" alt="Antares Network Logo" style="width:64px;height:64px;display:block;margin-left:auto;margin-right: auto;"> 
+                    <br>
+                    <p>Nate's Personal website has been moved</p>
+                    <p>Go to the new page: <a href="https://nathen418.com">nathen418.com</a></p>
+                    <p>Continue to the Antares Network's homepage: <a href="https://playantares.com/home.html">playantares.com</a</p>
+                        <a href="/home.html" class="btn btn-primary" role="button">Close</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section-2">
-            <h2>About Us</h2>
-            <p>We are a small team of people working on passion projects and colaberating on cool ideas
-                to have fun and maybe build something someone somewhere might find cool.
-            </p>
-
-            <h2>Github</h2>
-            <a href="https://github.com/Antares-Network">• Our Github Page</a>
-            <h2>Active Projects</h2>
-            <a href="https://github.com/Antares-Network/BASM">• Bungee Automatic Server Manager</a>
-            <a href="https://bans.playantares.com">• Antares Network Minecraft Server</a>
-            <a href="https://dsc.gg/antaresnetwork">• Antares Discord Server</a>
-
-            <h2>Frozen Projects</h2>
-            <a href="https://github.com/Antares-Network/AntaresBot">• Antares Bot</a>
-            <a href="https://github.com/Antares-Network/AntaresPrison">• Antares Prisons</a>
-            <a href="https://github.com/Antares-Network/IridiumScoreBoard">• IridiumScoreBoard</a>
-            <a href="https://github.com/Antares-Network/WebhookManager">• WebhookManager</a>
-            <a href="https://github.com/Antares-Network/AntaresBot_V1.2.18-RC2">• Antares Bot V1.2.18-RC2</a>
-            <a href="https://github.com/Antares-Network/Incramentia">• Incramentia</a>
-            <a href="https://github.com/Antares-Network/Orbit">• Orbit</a>
-
-            <h2>Contact</h2>
-            <p><a href="mailto:business@playantares.com">business@playantares.com</a></p>
-        </div>
-    </div>
-    <div class="footer">
-        <p>&copy; Copyright 2021 Antares Network </p>
     </div>
 </body>
 
